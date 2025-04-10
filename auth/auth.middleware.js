@@ -2,7 +2,7 @@
 
 const jwt = require("jsonwebtoken");
 const ULB=require("../models/ulb.model");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const dotenv = require("dotenv");
 dotenv.config();
 

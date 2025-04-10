@@ -1,7 +1,7 @@
 // Here we will export mongoose
 const mongoose = require('mongoose');
 /// Here we will require bcrypt
-const bcrypt=require("bcrypt");
+const bcrypt=require("bcryptjs");
 const jwt=require("jsonwebtoken");
         
 
